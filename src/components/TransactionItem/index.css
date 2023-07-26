@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.transaction-container{
+    border: 1px solid #cbd5e1;
+    display: flex;
+    justify-content: space-between;
+      padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  align-items: center;
+
+}
+
+
+.para-trans {
+  /* font-weight: bold; */
+   font-family: Roboto;
+    width: 32%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+.delete-icon{
+    height: 16px;
+    width: 16px;
+}
+
+.delete-button{
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul{
+    padding-left: 0px;
+    list-style-type: none;
+    margin: 0px;
+}

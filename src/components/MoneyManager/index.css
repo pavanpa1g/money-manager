@@ -1,0 +1,172 @@
+/* Write your CSS here */
+.bg-container {
+  margin-top: 10px;
+  padding: 30px;
+  padding-top: 10px;
+  min-height: 100vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-head-container {
+  background-color: #d7dfe9;
+  /* padding: 20px; */
+  padding: 10px;
+  padding-left: 24px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+}
+
+
+.head-top {
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+.span-para {
+  color: #0b69ff;
+  font-weight: 700;
+}
+
+.para {
+  color: #7e858e;
+}
+
+.head-form {
+  font-size: 18px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  margin-top: 20px;
+  border-radius: 12px;
+  border: #7e858e solid 1px;
+  padding: 20px;
+  width: 40%;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  /* height: 58vh; */
+}
+
+.trans-container {
+  border: #7e858e solid 1px;
+  width: 56%;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.desp-container {
+  border: #cbd5e1 solid 1px;
+  display: flex;
+  /* justify-content: space-between; */
+  padding-left: 30px;
+  padding-right: 30px;
+  /* border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
+}
+
+.para-tit {
+  font-weight: bold;
+  font-family: Roboto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 32%;
+}
+
+.history-head {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.input-item {
+  width: 90%;
+  height: 40px;
+  border-radius: 8px;
+  border: #7e858e solid 1px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 60px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.options-box{
+    height: 40px;
+}
+
+
+
+/* Dropdown.css */
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 90%;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+select {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: #7e858e solid 1px;
+  /* background-color: #f7f7f7; */
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  width: 90%;
+    margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+select:hover,
+select:focus {
+  border-color: #999;
+}
+
+option {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #fff;
+  color: #333;
+}
+
+option:hover {
+  background-color: #f0f0f0;
+}
+
+
+.transaction-bg-container{
+    height: 300px;
+    overflow-y: scroll;
+    /* border:1px solid red; */
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Set the width of the scrollbar to 0 */
+  background-color: transparent; /* Hide the scrollbar track */
+}
